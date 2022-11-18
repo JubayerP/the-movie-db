@@ -13,7 +13,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='py-20 grid grid-cols-3 gap-4 px-10 bg-slate-600'>
+            <div className='py-20 grid grid-cols-3 gap-4 px-10 bg-[#f1faee]'>
                 {
                     movies.results.slice(0,9).map(movie => <Movies key={movie.id} movies={ movie} />)
                 }
